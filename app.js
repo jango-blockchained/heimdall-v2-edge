@@ -4,7 +4,7 @@ const expressApp = express()
 
 const bot = new Telegraf(process.env.BOT_TOKEN)
 expressApp.use(bot.webhookCallback('/hoox'))
-bot.telegram.setWebhook('https://cryptolinx.net:8443/hoox')
+bot.telegram.setWebhook('https://heimdallv2.pages.dev/hoox')
 
 expressApp.get('/', (req, res) => {
   res.send('Heimdall reconfigured. Pull latest image..... clx/heimdall-v2-edge')
