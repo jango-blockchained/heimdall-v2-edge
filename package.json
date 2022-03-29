@@ -1,0 +1,26 @@
+{
+  "name": "heimdall-v2-edge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jango-blockchained/heimdall-v2-edge.git"
+  },
+  "author": "jango_blockchained",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jango-blockchained/heimdall-v2-edge/issues"
+  },
+  "homepage": "https://github.com/jango-blockchained/heimdall-v2-edge#readme",
+  "devDependencies": {
+    "express": "^4.17.3",
+    "telegraf": "^4.7.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0"
+  }
+}

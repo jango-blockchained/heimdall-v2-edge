@@ -1,3 +1,4 @@
+const dotenv = require('dotenv').config()
 const { Telegraf } = require('telegraf')
 const express = require('express')
 const expressApp = express()
